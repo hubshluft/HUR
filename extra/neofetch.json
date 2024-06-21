@@ -1,0 +1,7 @@
+{
+    "name": "neofetch",
+	"description": "A command-line system information tool written in bash 3.2+",
+    "version": "7.1.0",
+    "maintainer": "dylanaraps",
+	"installation": "curl -L -o neofetch-7.1.0.tar.gz https://github.com/dylanaraps/neofetch/archive/refs/tags/7.1.0.tar.gz && sudo tar -xvf neofetch-7.1.0.tar.gz && mkdir -p /usr/share/man/man1 && cp -p neofetch-7.1.0/neofetch /usr/bin/neofetch && cp -p neofetch-7.1.0/neofetch.1 /usr/share/man/man1/ && rm -r neofetch-7.1.0/ && rm neofetch-7.1.0.tar.gz"
+}

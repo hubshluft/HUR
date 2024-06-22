@@ -1,8 +1,0 @@
-{
-    "name": "discord",
-    "description": "Discord is a proprietary freeware VoIP application and digital distribution platform designed for video gaming communities.",
-    "version": "latest",
-    "maintainer": "Discord Inc.",
-    "installation": "curl -L -o discord.tar.gz https://discord.com/api/download?platform=linux&format=tar.gz && sudo tar -xzvf /tmp/discord.tar.gz -C /opt && sudo ln -sf /opt/Discord/Discord /usr/bin/discord && rm discord.tar.gz",
-	"uninstallation": "sudo rm -rf /opt/Discord && sudo rm /usr/bin/discord && rm -rf ~/.config/discord"
-}

@@ -5,7 +5,7 @@
   "maintainer": "Discord Inc.",
   "installation": [
     "curl -L -o discord-0.0.57.tar.gz https://dl.discordapp.net/apps/linux/0.0.57/discord-0.0.57.tar.gz",
-    "sudo tar -xzvf discord.tar.gz -C /opt",
+    "sudo tar -xvf discord.tar.gz -C /opt",
     "sudo ln -sf /opt/Discord/Discord /usr/bin/discord",
     "rm discord.tar.gz"
   ],

@@ -5,18 +5,9 @@
   "maintainer": "Discord Inc.",
   "installation": [
     "curl -L -o discord-0.0.57.tar.gz https://dl.discordapp.net/apps/linux/0.0.57/discord-0.0.57.tar.gz",
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    "sudo tar -xvf discord-0.0.57.tar.gz -C /opt",
-    "sudo ln -sf /opt/Discord/Discord /usr/bin/discord",
-    "rm discord-0.0.57.tar.gz"
-=======
->>>>>>> a0c1b8d7090947dd905874b9b7a8b3e7293ae596
     "sudo tar -xzvf discord.tar.gz -C /opt",
     "sudo ln -sf /opt/Discord/Discord /hl-bin/discord",
-    "rm discord.tar.gz"
->>>>>>> a4d7824 (pkg)
+    "rm discord-0.0.57.tar.gz"
   ],
   "uninstallation": [
     "sudo rm -rf /opt/Discord",

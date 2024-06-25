@@ -6,12 +6,12 @@
   "installation": [
     "curl -L -o discord-0.0.57.tar.gz https://dl.discordapp.net/apps/linux/0.0.57/discord-0.0.57.tar.gz",
     "sudo tar -xzvf discord.tar.gz -C /opt",
-    "sudo ln -sf /opt/Discord/Discord /usr/bin/discord",
+    "sudo ln -sf /opt/Discord/Discord /hl-bin/discord",
     "rm discord.tar.gz"
   ],
   "uninstallation": [
     "sudo rm -rf /opt/Discord",
-    "sudo rm /usr/bin/discord",
+    "sudo rm /hl-bin/discord",
     "rm -rf ~/.config/discord"
   ]
 }

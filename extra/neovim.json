@@ -1,0 +1,22 @@
+{
+    "name": "neovim",
+    "description": "Neovim text editor",
+    "version": "0.10.0",
+    "maintainer": "Neovim Team",
+    "installation": [ 
+        "curl -LO https://github.com/neovim/neovim/releases/download/v0.10.0/nvim-linux64.tar.gz",
+        "tar xzf nvim-linux64.tar.gz",
+        "cd nvim-linux64",
+        "sudo cp -r bin lib share /usr/local/",
+        "cd ..",
+        "rm -rf nvim-linux64",
+        "rm nvim-linux64.tar.gz"
+    ],
+    "uninstallation": [
+        "sudo rm -rf /usr/local/bin/nvim",
+        "sudo rm -rf /usr/local/lib/nvim",
+        "sudo rm -rf /usr/local/share/nvim",
+        "sudo rm -rf /usr/local/share/man/man1/nvim.1"
+    ]
+}
+

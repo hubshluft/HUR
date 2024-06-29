@@ -6,9 +6,7 @@
     "installation": [ 
         "curl -LO https://github.com/neovim/neovim/releases/download/v0.10.0/nvim-linux64.tar.gz",
         "tar xzf nvim-linux64.tar.gz",
-        "cd nvim-linux64",
-        "sudo cp -r bin lib share /usr/local/",
-        "cd ..",
+        "sudo cp -r nvim-linux64/bin nvim-linux64/lib nvim-linux64/share /usr/local/",
         "rm -rf nvim-linux64",
         "rm nvim-linux64.tar.gz"
     ],

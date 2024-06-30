@@ -1,0 +1,17 @@
+{
+  "name": "Firefox",
+  "description": "Fast, Private & Safe Web Browser",
+  "version": "v127.0.2",
+  "maintainer": "Mozilla Foundation",
+  "installation": [
+    "curl -LO https://ftp.mozilla.org/pub/firefox/releases/127.0.2/linux-x86_64/en-US/firefox-127.0.2.tar.bz2",
+    "tar -xvf firefox-127.0.2.tar.bz2",
+    "sudo mkdir -p /opt/firefox",
+    "sudo mv firefox /opt/firefox/",
+    "sudo ln -sf /opt/firefox/firefox/firefox /usr/local/bin/firefox"
+  ],
+  "uninstallation": [
+    "sudo rm -f /usr/local/bin/firefox",
+    "sudo rm -rf /opt/firefox"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "hpm",
+  "description": "hpm is a lightweight and powerful package manager for Hubshluft and other GNU/Linux distributions.",
+  "version": "v1.0.0",
+  "maintainer": "Hubshluft",
+  "installation": [
+    "curl -LO https://github.com/hubshluft/hpm/releases/download/v1.0.0/hpm-1.0.0.tar.gz",
+    "sudo tar -xvf hpm-1.0.0.tar.gz",
+    "sudo mv hpm-1.0.0/hpm /usr/bin",
+    "sudo rm -rf hpm-1.0.0/",
+	"sudo rm hpm-1.0.0.tar.gz"
+  ],
+  "uninstallation": [
+    "sudo rm /usr/bin/hpm"
+  ]
+}

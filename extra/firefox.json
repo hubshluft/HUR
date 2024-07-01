@@ -9,6 +9,7 @@
     "sudo mkdir -p /opt/firefox",
     "sudo mv firefox /opt/firefox/",
     "sudo ln -sf /opt/firefox/firefox/firefox /usr/local/bin/firefox",
+	"sudo rm -rf firefox",
 	"rm firefox-127.0.2.tar.bz2"
   ],
   "uninstallation": [
